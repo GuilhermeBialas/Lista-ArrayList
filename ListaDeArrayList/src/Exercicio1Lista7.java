@@ -47,9 +47,6 @@ public class Exercicio1Lista7 {
                          Posicao8+ ", "+ Posicao9+ ", "+ Posicao10+
                          Posicao11+ ", "+Posicao12+ ", "+Posicao13 + ", "+
                          Posicao14+ ", "+ Posicao15);
-
-
-
-       
+    
      }
 }
