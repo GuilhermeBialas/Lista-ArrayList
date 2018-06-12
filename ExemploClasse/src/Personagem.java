@@ -12,6 +12,10 @@ public class Personagem {
     
     private String nome, cla, aldeia ;
     private long nivelChakra;
+    private char sexo;
+    private byte idade, idadeMental;
+    
+    
      //permitir guardar a informacao
     
     public void setNome(String x1){
@@ -30,4 +34,42 @@ public String getNome(){
     return nome;
     
 }
+ 
+public void setCla (String cla){
+    this.cla = cla;
 }
+public String getCla(){
+    return cla;
+}
+public void setAldeia (String nomeAldeia){
+    this.aldeia = nomeAldeia;
+
+}
+public String getAldeia (){
+    return aldeia;
+}
+public void setnivelChakra(long nivelChakra){
+    this.nivelChakra = nivelChakra;
+ }
+public long getNivelChakra(){
+    return nivelChakra;
+
+}
+public void setIdade(byte idade){
+    this.idade = idade;
+}
+public byte getIdade(){
+    return idade;
+}
+public void idadeMental(byte idadeMental){
+    this.idadeMental = idadeMental;
+
+}
+public byte getIdadeMental(){
+    return idadeMental;
+}
+
+
+
+}
+        
