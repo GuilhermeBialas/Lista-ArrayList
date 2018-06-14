@@ -14,9 +14,9 @@ public class Exercicio1Lista7 {
        numeros.add(2);
        numeros.add(3);
        numeros.add(5);
+       numeros.add(15);
        numeros.add(8);
        numeros.add(13);
-       numeros.add(15);
        numeros.add(44);
        numeros.add(66);
        numeros.add(11);

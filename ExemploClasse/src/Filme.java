@@ -16,14 +16,14 @@ public class Filme {
     private LocalDate dataLancamentoBrasil;
     private String idioma;
     
-    public String geTitulo(){
+    public String getTitulo(){
         return titulo;
     }
   
     public void setTitulo(String titulo){
         this.titulo = titulo;
     }
-public String geDiretor(){
+public String getDiretor(){
     return diretor;
 } 
 public void setDiretor(String diretor){

@@ -19,18 +19,18 @@ public class PersonagemJUnitTest {
        assertEquals("Sakura Harumo", sakura.getNome());
    }
     @Test
-    public void testeDefinirEObterIdade(){
+     public void testeDefinirEObterIdade(){
       
         Personagem choji = new Personagem();
-       choji.setNome("Choji");
-       choji.setIdade((byte)17);
-       assertEquals(17, choji.getIdade());
+        choji.setNome("Choji");
+        choji.setIdade((byte)17);
+        assertEquals(17, choji.getIdade());
 }
     @Test
-    public void testeDefinirEObterSexo(){
+     public void testeDefinirEObterSexo(){
        
        
-        Pesrsonagem zabuza = new Personagem();
+        Personagem zabuza = new Personagem();
         zabuza.setSexo('m');
         assertEquals('m', zabuza.getSexo());
     }
@@ -62,4 +62,5 @@ public class PersonagemJUnitTest {
         jiraiya.setIdadeMental((byte)-10);
         assertEquals(-10, jiraiya.getIdadeMental());
     }
+    
 }
